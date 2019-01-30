@@ -14,4 +14,4 @@ matrix:
 install:
   - pip install pytest
 script:
-  - pytest --doctest-modules --ignore=setup.py -p no:warnings
+  - python -m pytest --doctest-modules --ignore=setup.py -p no:warnings
